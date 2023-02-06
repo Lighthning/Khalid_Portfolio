@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Assignment2Task1</string>
+    <string name="player_1">Player 1</string>
+    <string name="ponescore">Score:</string>
+    <string name="number_thrown">Number Thrown:</string>
+    <string name="player_2">Player 2</string>
+    <string name="score_0">Score:</string>
+    <string name="number_thrown_ptwo">Number Thrown:</string>
+    <string name="_0">0</string>
+    <string name="_00">0</string>
+    <string name="_000">0</string>
+    <string name="_0000">0</string>
+</resources>

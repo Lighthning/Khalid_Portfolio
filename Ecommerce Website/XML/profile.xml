@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+	     <meta charset= "utf-8"/>
+		 <title>Profile</title>
+		 <link rel="stylesheet" type="text/css" href="./style/style.css"/>
+		 <script src="./script/script.js"></script>
+     </head>
+     <body>
+	      <!--Backdrop Image-->
+	     <div class="backdropprofile">
+             <header>
+				<button onclick="topFunction()" id="myBtn" title="Top"><img src="./images/angle-double-up-solid.svg" width="30px" height="40px" alt="back to top"/></button>
+		     <!--Navigation Bar Start-->
+		     <nav>
+		         <a href="./index.html">Home</a>
+				 <!--Dropdown Menu Start-->
+				 <div class="dropdown">
+                     <button class="drpbtn">Shop
+                         <i class="shpbtn"></i>
+                     </button>
+                     <div class="drpcont" name="shoplist" id="shop" onchange="change()">
+						<optgroup><script>shop()</script></optgroup>
+					</div>
+                 </div> 
+                 <!--Dropdown Menu End-->				 
+			     <a href="./enquiry.html">Enquiry</a>
+			     <a id="active" href="./profile.html">Profile</a>
+			     <a href="./disclaimer.html">Disclaimer</a>
+				 <a href="./acknowledgements.html">Acknowledgement</a>
+				 <div class="dropdown">
+					<button class="drpbtn">Enhancements
+						<i class="shpbtn"></i>
+					</button>
+					<div class="drpcont" name="Enhancements" id="enhance" onchange="change()">
+					   <optgroup><script>enhance()</script></optgroup>
+				   </div>
+				</div> 
+		     </nav>
+			 <!--Navigation Bar End-->
+		     </header>
+			 <!--Logo Start-->
+		     <section class="logo">
+		     <img src="./images/translogo.png" width="700" alt="Logo"/>
+			 </section>
+			 <!--Logo End-->
+		 </div>
+		 
+		 <!--Profile Section starts-->
+		 <section>
+		 <div class="secdiv">
+		     <!--Profile Section Heading-->
+		     <h1 class="ourproducts">About Me</h1>
+		     <br/>
+			 <!--Profile Holder Starts-->
+		     <div class="profileholder">
+			     <!--Profile Image-->
+		         <img class="dp" src="./images/khalid.jpg" width="650" alt="Profile Pic"/>
+		         <!--Name-->
+				 <h1 class="yourname">Khalid Yaseen Baig</h1>
+			     <!--studentid-->
+				 <p class="stno">StudentID: 102763240</p>
+			     <br/>
+			     <br/>
+			     <p class="ict">I am currently Studying <b class="baict">Bachelor of Information and Communication Technology</b> at Swinburne University of Technology Sarawak Campus, Kuching, Malaysia.</p>
+			     <br/>
+			     <br/>
+				 <!--Profile table starts-->
+			     <table class="profiletable">
+			         <tbody>
+				         <tr>
+					         <th>Nationality</th>
+						     <td>Indian</td>
+					     </tr>
+                         <tr>
+					         <th>Hometown</th>
+						     <td>The Sillicon Valley of India- Banglore, Capital of State of Karnataka in the Southern part of India. It has a population of around 11 Million, making it the third most populous city in India. It is widely regarded as IT Capital of India because it is the leading IT exporter. It is also widely known for its Gardens, Architecture, Shopping &amp; Food. If you are visiting Banglore,  you'll be delighted to taste its huge variety of South Indian food known for their unique mixture of spices. Its also known for its amazing Weather, it experiences mild weather(neither very hot nor very cold) throughout the year.</td>
+					     </tr>
+					     <tr>
+					         <th>D.O.B</th>
+						     <td>11th April 2002</td>
+					     </tr>
+                         <tr>
+					         <th>Hobbies &amp; Interests</th>
+						     <td>
+						         <ol>
+							         <li>Photography &amp; Editing</li>
+								     <li>Travelling</li>
+								     <li>Weightlifting</li>
+							     </ol>	 
+						 
+						     </td>
+					     </tr>
+                     </tbody>
+                 </table>	
+				 <!--Profile table ends-->
+                 <br/>
+                 <br/>			 
+			     <a class="mail" href="mailto:102763240@students.swinburne.edu.my">Mail to</a>
+		     </div>	 
+			 <!--Profile Holder Starts-->
+		 </div>
+		 </section>
+		  <!--Profile Section ends-->
+		 
+		 <!--Footer start-->
+		 <div class="footer">
+             <footer>
+                 <div class="footerdiv">
+				         <!--Footer First Row Start-->
+				         <div class="firstcol">
+						     <ul>
+							     <li><a href="#">Help Center &amp; FAQ</a></li>
+								 <li><a href="#">Shipping &amp; Delivery</a></li>
+								 <li><a href="#">Track your order</a></li>
+								 <li><a href="#">Returns &amp; Refunds</a></li>
+							 </ul>
+                         </div>
+						 <!--Footer First Row End-->
+						 <!--Footer Second Row Start-->
+                         <div class="secondcol">
+                             <ul>
+                                 <li><a href="#">Terms of Service</a></li>
+                                 <li><a href="#">Privacy Policy</a></li>
+                                 <li><a href="#">Refund Policy</a></li>
+                                 <li><a href="#">Contact Us</a></li>								 
+                             </ul>
+					     </div>
+						 <!--Footer second Row End-->
+						 <!--Footer third Row Start-->
+						 <div class="social">
+						     <ul>
+							     <li><a href="#"><img src="./images/twitter.svg" alt="twitterlogo"/>Twitter</a></li>
+       		                     <li><a href="#"><img src="./images/facebook.svg" alt="facebooklogo"/>Facebook</a></li>
+								 <li><a href="#"><img src="./images/instagram.svg" alt="instagramlogo"/>Instagram</a></li>
+								 <li><a href="#"><img src="./images/snapchat.svg" alt="snapchatlogo"/>Snapchat</a></li>
+			                 </ul>
+					     </div>
+						 <!--Footer third Row end-->
+						 <!--Footer Logo Start-->
+						 <div class="footerlogo">
+						     <img src="./images/translogo.png" alt="logo" width="575"/>	 
+						 </div>
+						 <!--Footer Logo End-->
+						 <br/>
+						 <!--Footer Copyright Start-->
+						 <div id="liveclock" onload="showTime()"></div>
+						 <br/>
+						 <div class="copydiv">
+						      <p class="copyright">Millennial Accessories &#169; 2021</p>
+						 </div>	  
+						 <!--Footer Copyright End-->
+                 </div>
+             </footer>
+         </div>
+		 <!--Footer End-->
+	 </body>
+</html>	 

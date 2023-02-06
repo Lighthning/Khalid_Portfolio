@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+	     <meta charset= "utf-8"/>
+		 <title>Disclaimer</title>
+		 <link rel="stylesheet" type="text/css" href="./style/style.css"/>
+		 <script src="./script/script.js"></script>
+     </head>
+     <body>
+	     <!--Backdrop image-->
+	     <div class="backdropdisclaimer">
+             <header>
+				<button onclick="topFunction()" id="myBtn" title="Top"><img src="./images/angle-double-up-solid.svg" width="30px" height="40px" alt="back to top"/></button>
+            <!--Navigation Bar Start-->
+		     <nav>
+		         <a href="./index.html">Home</a>
+				 <!--Dropdown Menu Start-->
+				 <div class="dropdown">
+                     <button class="drpbtn">Shop
+                         <i class="shpbtn"></i>
+                     </button>
+                     <div class="drpcont" name="shoplist" id="shop" onchange="change()">
+						<optgroup><script>shop()</script></optgroup>
+					</div>
+                 </div> 
+                 <!--Dropdown Menu End-->				 
+			     <a href="./enquiry.html">Enquiry</a>
+			     <a href="./profile.html">Profile</a>
+			     <a id="active" href="./disclaimer.html">Disclaimer</a>
+				 <a href="./acknowledgements.html">Acknowledgement</a>
+			     <div class="dropdown">
+					<button class="drpbtn">Enhancements
+						<i class="shpbtn"></i>
+					</button>
+					<div class="drpcont" name="Enhancements" id="enhance" onchange="change()">
+					   <optgroup><script>enhance()</script></optgroup>
+				   </div>
+				</div> 
+		     </nav>
+			 <!--Navigation Bar End-->
+		     </header>
+			 <!--Logo Start-->
+		     <section class="logo">
+		     <img src="./images/translogo.png" width="700" alt="Logo"/>
+			 </section>
+			 <!--Logo End-->
+		 </div>
+		 <!--Disclaimer section start-->
+		 <div class="secdiv">
+		      <!--Disclaimer Heading-->
+			 <section>
+		     <h1 class="ourproducts">Disclaimer</h1>
+			 <br/>
+			 <!--Disclaimer holder start-->
+		     <div class="disclaimerholder">
+				 <ul>
+		             <li>This website is created mainly for educational and non-commercial use only. It is a partial fulfilment for completion of unit COS10011 - Creating Web Applications offered in Swinburne University of Technology, Sarawak Campus for Semester 2, 2021.</li>
+		             <li>The web-master and author(s) do not represent the business entity.</li>
+		             <li>The content of the pages of this website might be out-dated or inaccurate, thus, the author(s) and web-master does not take any responsibility for incorrect information disseminate or cited from this website.</li>
+		             <li>If you believe that information of any kind on this website is an infringement of copyright in material in which you either own copyright or are authorized to exercise the rights of a copyright owner, kindly contact the web-master (102763240@students.swinburne.edu.my) for removal.</li>
+	             </ul>
+		     </div>
+			 <!--Disclaimer holder End-->
+			 <br/>
+			 <br/>
+			 <br/>
+			 <br/>	
+		 </section>			 
+		 </div>
+
+		 <!--Disclaimer section end-->
+		 
+		 <!--Footer start-->
+		 <div class="footer">
+             <footer>
+                 <div class="footerdiv">
+				         <!--Footer First Row Start-->
+				         <div class="firstcol">
+						     <ul>
+							     <li><a href="#">Help Center &amp; FAQ</a></li>
+								 <li><a href="#">Shipping &amp; Delivery</a></li>
+								 <li><a href="#">Track your order</a></li>
+								 <li><a href="#">Returns &amp; Refunds</a></li>
+							 </ul>
+                         </div>
+						 <!--Footer First Row End-->
+						 <!--Footer Second Row Start-->
+                         <div class="secondcol">
+                             <ul>
+                                 <li><a href="#">Terms of Service</a></li>
+                                 <li><a href="#">Privacy Policy</a></li>
+                                 <li><a href="#">Refund Policy</a></li>
+                                 <li><a href="#">Contact Us</a></li>								 
+                             </ul>
+					     </div>
+						 <!--Footer second Row End-->
+						 <!--Footer third Row Start-->
+						 <div class="social">
+						     <ul>
+							     <li><a href="#"><img src="./images/twitter.svg" alt="twitterlogo"/>Twitter</a></li>
+       		                     <li><a href="#"><img src="./images/facebook.svg" alt="facebooklogo"/>Facebook</a></li>
+								 <li><a href="#"><img src="./images/instagram.svg" alt="instagramlogo"/>Instagram</a></li>
+								 <li><a href="#"><img src="./images/snapchat.svg" alt="snapchatlogo"/>Snapchat</a></li>
+			                 </ul>
+					     </div>
+						 <!--Footer third Row end-->
+						 <!--Footer Logo Start-->
+						 <div class="footerlogo">
+						     <img src="./images/translogo.png" alt="logo" width="575"/>	 
+						 </div>
+						 <!--Footer Logo End-->
+						 <br/>
+						 <!--Footer Copyright Start-->
+						 <div id="liveclock" onload="showTime()"></div>
+                         <br />
+						 <div class="copydiv">
+						      <p class="copyright">Millennial Accessories &#169; 2021</p>
+						 </div>	  
+						 <!--Footer Copyright End-->
+                 </div>
+             </footer>
+         </div>
+		 <!--Footer End-->
+	</body>
+</html>	

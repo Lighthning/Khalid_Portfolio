@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ConstraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentOne">
+
+    <ImageView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/banner2"
+        android:scaleType="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/stepone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/step_1_select_the_mains"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/header" />
+
+    <ImageView
+        android:id="@+id/picmains"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/breakfast_icon"
+        app:layout_constraintLeft_toRightOf="@id/stepone"
+        app:layout_constraintTop_toBottomOf="@id/header"
+        android:layout_marginLeft="7dp"/>
+
+    <View
+        android:id="@+id/divider1"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        app:layout_constraintTop_toBottomOf="@id/stepone"
+        android:layout_marginTop="3dp"
+        android:background="?android:attr/listDivider" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/scrambled_eggs"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/divider1"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/omellete"
+        app:layout_constraintTop_toTopOf="@id/checkBox1"
+        app:layout_constraintLeft_toRightOf="@id/checkBox1"
+        app:layout_constraintRight_toLeftOf="@id/checkBox3" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pancake"
+        app:layout_constraintTop_toTopOf="@id/checkBox2"
+        app:layout_constraintLeft_toRightOf="@id/checkBox2"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sausages"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/checkBox1"
+        app:layout_constraintHorizontal_chainStyle="spread"/>
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/beef_bacon"
+        app:layout_constraintLeft_toRightOf="@id/checkBox4"
+        app:layout_constraintTop_toTopOf="@id/checkBox4"
+        app:layout_constraintRight_toLeftOf="@id/checkBox6"/>
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ham"
+        app:layout_constraintLeft_toRightOf="@id/checkBox5"
+        app:layout_constraintTop_toTopOf="@id/checkBox5"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/textViewSides"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/step_2_select_your_sides"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/checkBox4"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:id="@+id/imageViewSides"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/side_icon"
+        app:layout_constraintLeft_toRightOf="@id/textViewSides"
+        app:layout_constraintTop_toBottomOf="@id/checkBox4"
+        android:layout_marginLeft="10dp"/>
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        app:layout_constraintTop_toBottomOf="@id/imageViewSides"
+        android:layout_marginTop="5dp"
+        android:background="?android:attr/listDivider" />
+
+    <CheckBox
+        android:id="@+id/checkBoxBakedBeans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/baked_beans"
+        android:enabled="false"
+        app:layout_constraintTop_toBottomOf="@id/divider2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread" />
+
+    <CheckBox
+        android:id="@+id/checkBoxTomatoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tomatoes"
+        android:enabled="false"
+        app:layout_constraintTop_toTopOf="@id/checkBoxBakedBeans"
+        app:layout_constraintLeft_toRightOf="@id/checkBoxBakedBeans"
+        app:layout_constraintRight_toLeftOf="@id/checkBoxhashBrowns"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxhashBrowns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hash_brown"
+        android:enabled="false"
+        app:layout_constraintTop_toTopOf="@id/checkBoxTomatoes"
+        app:layout_constraintLeft_toRightOf="@id/checkBoxTomatoes"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxSaute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/saute_vegetables"
+        android:enabled="false"
+        app:layout_constraintTop_toBottomOf="@id/checkBoxBakedBeans"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBoxToast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/toast"
+        android:enabled="false"
+        app:layout_constraintTop_toTopOf="@id/checkBoxSaute"
+        app:layout_constraintLeft_toRightOf="@id/checkBoxSaute"
+        app:layout_constraintRight_toLeftOf="@id/checkBoxSalad"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxSalad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/salad"
+        android:enabled="false"
+        app:layout_constraintTop_toTopOf="@id/checkBoxToast"
+        app:layout_constraintLeft_toRightOf="@id/checkBoxToast"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/textViewBvrg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/step_3_select_your_beverage"
+        app:layout_constraintTop_toBottomOf="@id/checkBoxSaute"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"/>
+
+    <ImageView
+        android:id="@+id/imageViewBvrg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/coffee"
+        app:layout_constraintTop_toBottomOf="@id/checkBoxSaute"
+        app:layout_constraintLeft_toRightOf="@id/textViewBvrg"
+        android:layout_marginLeft="5dp"/>
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        app:layout_constraintTop_toBottomOf="@id/imageViewBvrg"
+        android:layout_marginTop="3dp"
+        android:background="?android:attr/listDivider" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/divider3"
+        android:orientation="horizontal">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/radioButtonCoffee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/coffee"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="411dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintHorizontal_chainStyle="spread"
+                android:onClick="onClick"
+                android:checked="false"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonTea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tea"
+                tools:layout_editor_absoluteX="411dp"
+                app:layout_constraintTop_toTopOf="@id/radioButtonCoffee"
+                app:layout_constraintLeft_toRightOf="@id/radioButtonCoffee"
+                app:layout_constraintRight_toLeftOf="@id/radioButtonJuice"
+                android:onClick="onClick"
+                android:checked="false"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonJuice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Juice"
+                tools:layout_editor_absoluteX="411dp"
+                app:layout_constraintTop_toTopOf="@id/radioButtonTea"
+                app:layout_constraintLeft_toRightOf="@id/radioButtonTea"
+                app:layout_constraintRight_toLeftOf="@id/radioButtonMilk"
+                android:onClick="onClick"
+                android:checked="false"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonMilk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/milk"
+                tools:layout_editor_absoluteX="411dp"
+                app:layout_constraintTop_toTopOf="@id/radioButtonJuice"
+                app:layout_constraintLeft_toRightOf="@id/radioButtonJuice"
+                app:layout_constraintRight_toRightOf="parent"
+                android:onClick="onClick"
+                android:checked="false"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </RadioGroup>
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintTop_toBottomOf="@id/radiogroup"/>
+
+    <Button
+        android:id="@+id/buttonnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        app:layout_constraintTop_toBottomOf="@id/divider4"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="25dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

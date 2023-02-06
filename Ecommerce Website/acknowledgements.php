@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+	     <meta charset= "utf-8"/>
+		 <title>Acknowledgements</title>
+		 <link rel="stylesheet" type="text/css" href="./style/style.css"/>
+		 <script src="./script/script.js"></script>
+     </head>
+     <body>
+	     <!--Backdrop image-->
+	     <div class="backdropack">
+             <header>
+				<button onclick="topFunction()" id="myBtn" title="Top"><img src="./images/angle-double-up-solid.svg" width="30px" height="40px" alt="back to top"/></button>
+		     <!--Navigation Bar Start-->
+		        <?php include("./include/navigation_black.php"); ?>
+			 <!--Navigation Bar End-->
+		     </header>
+			 <!--Logo Start-->
+		     <section class="logo">
+		     <img src="./images/translogo.png" width="700" alt="Logo"/>
+			 </section>
+			 <!--Logo End-->
+		 </div>
+		 <!--Acknowledgement Section Start-->
+		 
+		 <div class="secdiv">
+		     <!--Acknowledgement Heading-->
+			 <br/>
+			 <section>
+			 <h1 class="ourproducts">Acknowledgement</h1>
+			 <br/>
+			 <!--Index Page Acknowledgements Start-->
+		     <div class="ack">
+			     <h1 class="ackhead">Index Page</h1>
+				 <br/>
+				 <br/>
+				 <a class="acklinks" href="https://unsplash.com/photos/eGHlWS-zQSM" target="_blank">Unsplash Images(Index Backdrop Image)</a>
+				 <a class="acklinks" href="https://www.flaticon.com/free-icon/global-shipping_4003669?term=worldwide%20shipping&amp;page=2&amp;position=44&amp;page=2&amp;position=44&amp;related_id=4003669&amp;origin=tag" target="_blank">Flaticon svg(Worldwide Delivery)</a>
+				 <a class="acklinks" href="https://www.flaticon.com/free-icon/free-shipping_2795227?term=free%20shipping&amp;page=1&amp;position=49&amp;page=1&amp;position=49&amp;related_id=2795227&amp;origin=search" target="_blank">Flaticon svg(Free Shipping)</a>
+				 <a class="acklinks" href="https://www.flaticon.com/free-icon/term_2302804?term=warranty&amp;page=1&amp;position=16&amp;page=1&amp;position=16&amp;related_id=2302804&amp;origin=search" target="_blank">Flaticon svg(Warranty)</a>
+				 <br/>
+				 <br/>
+				 <a class="acklinks" href="https://www.flaticon.com/free-icon/cyber-security_2092629?term=secure&amp;page=1&amp;position=11&amp;page=1position=11&amp;related_id=2092629&amp;origin=search" target="_blank">Flaticon svg(Secure payment)</a>
+				 <a class="acklinks" href="https://www.flaticon.com/free-icon/rating_992001?term=5%20star%20rating&amp;page=1&amp;position=6&amp;page=1&amp;position=6&amp;related_id=992001&amp;origin=search" target="_blank">Flaticon svg(5 Star Rating x3)</a>
+				 <a class="acklinks" href="https://www.pexels.com/photo/person-holding-round-gold-colored-analog-watch-with-link-bracelet-380782/" target="_blank">Pexels Images(Watches Image)</a>
+				 <a class="acklinks" href="https://unsplash.com/photos/I7wnWm6HQQY" target="_blank">Unsplash Images(Sunglasses Image)</a>
+				 <br/>
+				 <br/>
+				 <a class="acklinks" href="https://www.pexels.com/photo/black-backpack-on-top-of-wooden-table-1546003/" target="_blank">Pexels Images(Backpack Image)</a>
+				 <a class="acklinks" href="https://unsplash.com/photos/updW-QUccFE" target="_blank">Unsplash Images(Shoes Image)</a>
+				 <a class="acklinks" href="https://www.pexels.com/photo/close-up-of-leather-belts-4164506/" target="_blank">Pexels Images(Others-Belt Image)</a>
+				 <a class="acklinks" href="https://www.flaticon.com/free-icon/twitter_1384017?term=twitter&amp;page=1&amp;position=4&amp;page=1&amp;position=4&amp;related_id=1384017&amp;origin=search" target="_blank">Flaticon svg(Twitter logo - Footer)</a>
+				 <br/>
+				 <br/>
+				 <a class="acklinks" href="https://www.flaticon.com/free-icon/facebook-logo_49354?term=facebook&amp;page=1&amp;position=18&amp;page=1&amp;position=18&amp;related_id=49354&amp;origin=search" target="_blank">Flaticon svg(Facebook logo - Footer)</a>
+				 <a class="acklinks" href="https://www.flaticon.com/free-icon/instagram_1384015?term=instagram&amp;page=1&amp;position=6&amp;page=1&amp;position=6&amp;related_id=1384015&amp;origin=search" target="_blank">Flaticon svg(nstagram logo - Footer)</a>
+				 <a class="acklinks" href="https://www.flaticon.com/free-icon/snapchat_1384018?term=snapchat&amp;page=1&amp;position=6&amp;page=1&amp;position=6&amp;related_id=1384018&amp;origin=search" target="_blank">Flaticon svg(Snapchat logo - Footer)</a>
+			 </div>	 
+			 <!--Index Page Acknowledgements End-->
+			 <br/>
+			 <br/>
+			 <!--Watches Page Acknowledgements Start-->
+			 <div class="ack">
+			     <h1 class="ackhead">Watches Page</h1>
+				 <br/>
+				 <a class="acklinks" href="https://www.pexels.com/photo/person-wearing-silver-round-analog-watch-4484237/" target="_blank">Pexels Images(Watch Backdrop Image)</a>
+				 <a class="acklinks" href="https://www.tagheuer.com/gb/en/timepieces/collections/tag-heuer-carrera/44-mm-calibre-heuer-02/CBN2A1F.BA0643.html" target="_blank">Tag Heuer Official(Watch1 img &amp; Product info)</a>
+				 <a class="acklinks" href="https://sa.diesel.com/sa_en/catalog/product/view/id/57794/s/dz7435/?gclid=CjwKCAjwndCKBhAkEiwAgSDKQfCqC4-OG2KS7NRZbAu2oFErrRUutLjmj7AAmoPcdIZ1BMCMQg3S3xoCkBUQAvD_BwE" target="_blank">Diesel official(Watch2 img &amp; Product info)</a>
+				 <br/>
+				 <br/>
+				 <a class="acklinks" href="https://www.bulgari.com/en-gb/102957.html" target="_blank">Bulgari Official(Watch3 img &amp; product info)</a>
+				 <a class="acklinks" href="https://www.gshock.com/watches/mr-g/mrgb2000r-1a?utm_source=Homepage&amp;utm_medium=Featured&amp;utm_campaign=homepage_grid" target="_blank">G-Shock Official(Watch4 img &amp; Product info)</a>
+				 <a class="acklinks" href="https://www.fossil.com/en-us/products/44mm-townsman-automatic-black-stainless-steel-watch/ME3197.html" target="_blank">Fossil Official(Watch5 img &amp; Product info)</a>
+				 <br/>
+				 <br/>
+				 <a class="acklinks" href="https://www.remove.bg/" target="_blank">Background Remover, Used for removing backgrounds from images throught assignment</a>
+			 </div>	 
+			 <!--Watches Page Acknowledgements End-->
+			 <br/>
+			 <br/>
+			 <!--Sunglasses Page Acknowledgements Start-->
+			 <div class="ack">
+			     <h1 class="ackhead">Sunglasses Page</h1>
+				 <br/>
+				 <a class="acklinks" href="https://unsplash.com/photos/OuRUmbyyxmM" target="_blank">Unsplash Images(Sunglasses Backdrop Image)</a>
+				 <a class="acklinks" href="https://www.pngegg.com/en/png-bhirz" target="_blank">Rayban Aviator(1st Product Image)</a>
+				 <a class="acklinks" href="https://www.ray-ban.com/usa/sunglasses/RB3025%20UNISEX%20aviator%20classic-gunmetal/805289601708" target="_blank">Ray-Ban official(1st Product info)</a>
+				 <br/>
+				 <br/>
+				 <a class="acklinks" href="https://tomahawkshades.com/products/the-seaports" target="_blank">Tomhawk Official(Sunglasses1st img &amp; product info)</a>
+				 <a class="acklinks" href="https://www.visiofactory.com/en/sunglasses/all-sunglasses/ray-ban-round-double-bridge-silver-rb3647n-91233m-51-22-medium-gradient.html" target="_blank">Rayban round(3rd Product img)</a>
+				 <a class="acklinks" href="https://www.ray-ban.com/usa/sunglasses/RB3647N%20UNISEX%20round%20double%20bridge-gold/8053672737646" target="_blank">Ray-ban Official(3rd Product info)</a>
+				 <br/>
+				 <br/>
+				 <a class="acklinks" href="https://www.tomford.com/polarized-arnaud-sunglasses/FT0625-P.html" target="_blank">Tomford Official(Sunglasses4th img &amp; product info)</a>
+				 <a class="acklinks" href="https://www.visiofactory.com/en/sunglasses/all-sunglasses/randolph-aviator-silver-af078-55-20-medium-polarized.html" target="_blank">Randolph Aviator(5th Product img)</a>
+				 <a class="acklinks" href="https://www.randolphusa.com/products/aviator-military-special-edition?variant=39494532169868" target="_blank">Randolph Official(5th Product info)</a>
+			 </div>	 
+			 <!--Sunglasses Page Acknowledgements End-->
+			 <br/>
+			 <br/>
+			 <!--Backpack Page Acknowledgements Start-->
+			 <div class="ack">
+			     <h1 class="ackhead">Backpack Page</h1>
+				 <br/>
+				 <a class="acklinks" href="https://www.pexels.com/photo/man-standing-on-field-carrying-a-backpack-3178852/" target="_blank">Pexels Images(Backpack Backdrop Image)</a>
+				 <a class="acklinks" href="https://www.peakdesign.com/collections/everyday-bags/products/everyday-backpack?variant=29743300902956" target="_blank">Peak Design Official(Backpack1 Img &amp; Product info)</a>
+				 <a class="acklinks" href="https://solgaard.co/products/lifepack-endeavor-backpack-with-closet?variant=39402832494765" target="_blank">Solgaard official(Backpack2 Img &amp; Product info)</a>
+				 <br/>
+				 <br/>
+				 <a class="acklinks" href="https://bellroy.com/products/transit-backpack/baida_nylon/lunar#slide-1" target="_blank">Bellroy Official(Backpack3 img &amp; product info)</a>
+				 <a class="acklinks" href="https://matadorup.com/products/seg42-travel-pack" target="_blank">Matador Official(Backpack4  img &amp; Product info)</a>
+				 <a class="acklinks" href="https://www.bleu-de-chauffe.com/en/men/813-woody-backpack-wheat.html" target="_blank">Bleu-de-Chauffe Official(Backpack5 img &amp; Product info)</a>
+				 <br/>
+			 </div>
+			 <!--Backpack Page Acknowledgements End-->
+             <br/>
+			 <br/>
+			 <!--Shoes Page Acknowledgements Start-->
+			 <div class="ack">
+			     <h1 class="ackhead">Shoes Page</h1>
+				 <br/>
+				 <a class="acklinks" href="https://unsplash.com/photos/SxAXphIPWeg" target="_blank">Unsplash Images(Shoes Backdrop Image)</a>
+				 <a class="acklinks" href="https://www.nike.com/sa/t/air-jordan-1-mid-shoes-RRTg1P1y/554724-130" target="_blank">Nike Official(Shoe1 Img &amp; Product info)</a>
+				 <a class="acklinks" href="https://www.adidas.com/us/superstar-shoes/EG4958.html" target="_blank">Adidas official(Shoe2 Img &amp; Product info)</a>
+				 <br/>
+				 <br/>
+				 <a class="acklinks" href="https://www.koio.co/products/capri-castagna-mens?variant=49457615558" target="_blank">Koio Official(Shoe3 img &amp; product info)</a>
+				 <a class="acklinks" href="https://www.vans.com/shop/old-skool-black-white" target="_blank">Vans Official(Shoe4  img &amp; Product info)</a>
+				 <a class="acklinks" href="https://www.reiss.com/p/leather-whole-cut-shoes-mens-bay-in-dark-brown/?category_id=10418&amp;gaEeList=M%20-%20Shoes%20-%20Smart" target="_blank">Riess Official(Shoe5 img &amp; Product info)</a>
+				 <br/>
+			 </div>	
+             <!--Shoes Page Acknowledgements End-->			 
+			<br/>
+			<br/>
+			<!--Others Page Acknowledgements Start-->
+			 <div class="ack">
+			     <h1 class="ackhead">Others Page</h1>
+				 <br/>
+				 <a class="acklinks" href="https://www.pexels.com/photo/anonymous-male-sitting-on-boat-above-water-4992628/" target="_blank">Pexels Images(Others Backdrop Image)</a>
+				 <a class="acklinks" href="https://www.maximumhenry.com/collections/belts/products/very-wide-standard" target="_blank">MaximumHenry Official(Belt Img &amp; Product info)</a>
+				 <a class="acklinks" href="https://bellroy.com/products/hide-and-seek-wallet/leather_viroblock_hi/basalt#slide-1" target="_blank">Bellroy official(Wallet Img &amp; Product info)</a>
+				 <br/>
+				 <br/>
+				 <a class="acklinks" href="https://www.farfetch.com/shopping/men/dolce-gabbana-panama-style-hat-item-15056960.aspx?fsb=1&amp;size=20&amp;storeid=13098&amp;clickref=1100linTgWxj&amp;utm_source=skimlinks_phg&amp;utm_medium=affiliate&amp;utm_campaign=PHROW&amp;utm_term=ROWNetwork&amp;pid=performancehorizon_int&amp;c=skimlinks_phg&amp;clickid=1100linTgWxj&amp;af_siteid=305950&amp;af_sub_siteid=1100l243&amp;af_cost_model=CPA&amp;af_channel=affiliate&amp;is_retargeting=true" target="_blank">Doice &amp; Gabbana(Hat img &amp; product info)</a>
+				 <a class="acklinks" href="https://www.fossil.com/en-gb/products/leather-essentials-brown-leather-multi-strand-bracelet/JF03685040.html?cjevent=df0e409a249411ec80ae4cc00a180512&amp;utm_source=cj&amp;utm_medium=aff&amp;utm_content=5370367_100104363" target="_blank">Fossil Official(Band img &amp; Product info)</a>
+				 <a class="acklinks" href="https://www.thejewelhut.co.uk/unique-rose-gold-black-tungsten-7mm-ring-tur-55-64" target="_blank">Jewelhut Official(ring img &amp; Product info)</a>
+				 <br/>
+			 </div>
+			 <!--Others Page Acknowledgements End-->
+             <br/>
+             <br/>
+             <!--Enquiry Page Acknowledgements Start-->			 
+             <div class="ack">
+			     <h1 class="ackhead">Enquiry Page</h1>
+				 <a class="acklinks" href="https://unsplash.com/photos/f7xoQpzl-Mo" target="_blank">Unsplash Images(Enquiry Backdrop Image)</a>			 
+				 <br/>
+			 </div>
+			 <!--Enquiry Page Acknowledgements End-->
+			 <br/>
+             <br/>
+             <!--Disclaimer Page Acknowledgements Start-->			 
+             <div class="ack">
+			     <h1 class="ackhead">Disclaimer Page</h1>
+				 <a class="acklinks" href="https://unsplash.com/photos/b18TRXc8UPQ" target="_blank">Unsplash Images(Disclaimer Backdrop Image)</a>			 
+				 <br/>
+			 </div>
+			 <!--Disclaimer Page Acknowledgements End-->
+			 <br/>
+             <br/>
+             <!--Acknowledgements Page Acknowledgements Start-->			 
+             <div class="ack">
+			     <h1 class="ackhead">Acknowledgements Page</h1>
+				 <br/>
+				 <a class="acklinks" href="https://unsplash.com/photos/0_X3a7DP2oo" target="_blank">Unsplash Images(Acknowledgements Backdrop Image)</a>			 
+				 <br/>
+			 </div>
+			 <!--Acknowledgements Page Acknowledgements End-->	
+			 <br/>
+             <br/>	
+             <!--Enhancements Page Acknowledgements Start-->				 
+             <div class="ack">
+			     <h1 class="ackhead">Enhancements Page</h1>
+				 <br/>
+				 <a class="acklinks" href="https://www.pexels.com/photo/man-sitting-in-front-of-three-computers-4974915/" target="_blank">Pexels Images(Enhancement(CSS) Backdrop Image)</a>
+				 <a class="acklinks" href="https://www.pexels.com/photo/turned-on-laptop-computer-574073/" target="_blank">Pexels Images(Enhancement(JAVA) Backdrop Image)</a>			 
+				 <br/>
+			 </div>
+			 <br/>
+             <br/>	
+			 <!--Enhancements Page Acknowledgements End-->	
+			 <div class="ack">
+				<h1 class="ackhead">On all the pages</h1>
+				<a class="acklinks" href="https://fontawesome.com/v5.15/icons/angle-double-up?style=solid" target="_blank">Angle Double Up Svg(Used in Back to top button)</a>			 
+				<br/>
+			</div>
+			 <br/>
+             <br/>			 
+             <div class="ack">
+			     <p class="note"><b>Note:</b> Any Logo or pic not mentioned from the project here is made by me or taken by me</p>
+			 </div>
+		</section>	 
+		</div>
+        <!--Acknowledgement Section End-->		
+		 <!--Footer start-->
+		<footer>
+			<?php include("./include/footer.php"); ?>
+		</footer>
+		 <!--Footer End-->
+	</body>
+</html>	
+            

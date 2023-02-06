@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+	     <meta charset= "utf-8"/>
+		 <title>Enhancements(CSS)</title>
+		 <link rel="stylesheet" type="text/css" href="./style/style.css"/>
+		 <script src="./script/script.js"></script>
+     </head>
+     <body>
+	     <!--Backdrop image-->
+	     <div class="backdropenhance">
+             <header>
+				<button onclick="topFunction()" id="myBtn" title="Top"><img src="./images/angle-double-up-solid.svg" width="30px" height="40px" alt="back to top"/></button>
+		     <!--Navigation Bar Start-->
+			 <?php include("./include/navigation_black.php"); ?>
+			<!--Navigation Bar End-->
+		     </header>
+			 <!--Logo Start-->
+		     <section class="logo">
+		     <img src="./images/translogo.png" width="700" alt="Logo"/>
+			 </section>
+			 <!--Logo End-->
+		 </div>
+		 
+		 <!--Section Start-->
+		 <section>
+		 <div class="secdiv">
+		     <!--Enhancement Heading-->
+		     <h1 class="ourproducts">Enhancements(CSS)</h1>
+			 <br/>
+			 <!--Enhancement no.1 start-->
+		     <div class="ack">
+			    <!--Enhancement no.1 heading-->
+			    <h1 class="enhancehead">1.linear-gradient</h1>
+				<br/>
+				<ul>
+				    <li><p class= "enhancepara">The linear-gradient() CSS function creates an image consisting of a progressive transition between two or more colors along a straight line. Its result is an object of the gradient data type, which is a special kind of image </p></li>
+			        <li><p class= "enhancepara">CSS Code:{ background: linear-gradient(rgba(0,0,0,0.3),rgba(255,255,255,0.8),rgba(0,0,0,0.3));}</p></li>
+				    <li><a class= "enhancepara" href="https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient()" target="_blank">Click Here for Source</a></li>
+				    <li><p class="enhancepara">Enhancement is applied in the dropdown menu.</p></li>
+				</ul>
+             </div>
+			 <!--Enhancement no.1 end-->
+             <br/>
+			 <br/>
+			 <!--Enhancement no.2 start-->
+             <div class="ack">
+			     <!--Enhancement no.2 heading-->
+			    <h1 class="enhancehead">2.Absolute Positioning Inside Relative Positioning</h1>
+				<ul>
+				    <li><p class= "enhancepara">A page element with relative positioning gives you the control to absolutely position children elements inside of it.</p></li>
+			        <li><p class= "enhancepara">CSS Code:{position:absolute; top:0; left:0;}</p></li>
+				    <li><a class= "enhancepara" href="https://css-tricks.com/absolute-positioning-inside-relative-positioning/">Click Here for Source</a></li>
+				    <li><p class="enhancepara">Enhancement is applied throughout the assignments, specifically for positioning the images and svg in index page</p></li>
+				</ul>	
+			</div>	
+			<!--Enhancement no.2 end-->
+            <br/>
+		    <br/>
+			<!--Enhancement no.3 start-->
+            <div class="ack">
+			    <!--Enhancement no.3 Heading-->
+			    <h1 class="enhancehead">3.CSS transform Property</h1>
+				<ul>
+				    <li><p class= "enhancepara">The transform property applies a 2D or 3D transformation to an element. This property allows you to rotate, scale, move, skew, etc., elements.</p></li>
+			        <li><p class= "enhancepara">CSS Code: {transform: scaleY(1.5)};</p></li>
+				    <li><a class= "enhancepara" href="https://www.w3schools.com/cssref/css3_pr_transform.asp" target="_blank">Click Here for Source</a></li>
+				    <li><p class="enhancepara">Enhancement is applied throughout the assignments, specifically for scaling properties while hover or transforming the properties to Uppercase.</p></li>
+				</ul>	
+			</div>
+			<!--Enhancement no.3 end-->
+            <br/>
+		    <br/>
+			<!--Enhancement no.4 start-->
+            <div class="ack">
+			    <!--Enhancement no.4 Heading-->
+			    <h1 class="enhancehead">4.CSS transitions</h1>
+				<ul>
+				    <li><p class= "enhancepara">CSS transitions provide a way to control animation speed when changing CSS properties. Instead of having property changes take effect immediately, you can cause the changes in a property to take place over a period of time</p></li>
+			        <li><p class= "enhancepara">CSS Code: { transition: all 0.7s ease; } </p></li>
+				    <li><a class= "enhancepara" href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions" target="_blank">Click Here for Source</a></li>
+				    <li><p class="enhancepara">Enhancement is applied for the whole website by pplying it thru "*" at start of CSS file</p></li>
+				</ul>	
+			</div>
+			<!--Enhancement no.4 end-->
+			<br/>
+		    <br/>
+			<!--Enhancement no.5 start-->
+            <div class="ack">
+			    <!--Enhancement no.5 Heading-->
+			    <h1 class="enhancehead">5.Box-shadow Property</h1>
+				<ul>
+				    <li><p class= "enhancepara">The box-shadow CSS property adds shadow effects around an element's frame. You can set multiple effects separated by commas. A box shadow is described by X and Y offsets relative to the element, blur and spread radius, and color.</p></li>
+			        <li><p class= "enhancepara">CSS Code: {box-shadow: 10px 5px 5px red;}</p></li>
+				    <li><a class= "enhancepara" href="https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow" target="_blank">Click Here for Source</a></li>
+				    <li><p class="enhancepara">Enhancement is applied throughout the assignments as you can see in all the boxes.</p></li>
+				</ul>	
+			</div>
+			<!--Enhancement no.5 end-->
+			<br/>
+		    <br/>
+			<!--Enhancement no.6 start-->
+            <div class="ack">
+			    <!--Enhancement no.6 heading-->
+			    <h1 class="enhancehead">6.CSS background-attachment Property</h1>
+				<ul>
+				    <li><p class= "enhancepara">The background-attachment property sets whether a background image scrolls with the rest of the page, or is fixed.</p></li>
+			        <li><p class= "enhancepara">CSS Code:{background-image: url("./property.img"); background-repeat: no-repeat; background-attachment: fixed;}</p></li>
+				    <li><a class= "enhancepara" href="https://www.w3schools.com/cssref/pr_background-attachment.asp" target="_blank">Click Here for Source</a></li>
+				    <li><p class="enhancepara">Enhancement is applied throughout the assignments, specifically for the backdrops in all pages</p></li>
+				</ul>	
+			</div>
+			<!--Enhancement no.6 end-->
+            			
+		
+		 </div>
+		 </section>
+		 <!--Section End-->
+		     
+		 <!--Footer start-->
+		 <div class="footer">
+             <footer>
+                 <div class="footerdiv">
+				         <!--Footer First Row Start-->
+				         <div class="firstcol">
+						     <ul>
+							     <li><a href="#">Help Center &amp; FAQ</a></li>
+								 <li><a href="#">Shipping &amp; Delivery</a></li>
+								 <li><a href="#">Track your order</a></li>
+								 <li><a href="#">Returns &amp; Refunds</a></li>
+							 </ul>
+                         </div>
+						 <!--Footer First Row End-->
+						 <!--Footer Second Row Start-->
+                         <div class="secondcol">
+                             <ul>
+                                 <li><a href="#">Terms of Service</a></li>
+                                 <li><a href="#">Privacy Policy</a></li>
+                                 <li><a href="#">Refund Policy</a></li>
+                                 <li><a href="#">Contact Us</a></li>								 
+                             </ul>
+					     </div>
+						 <!--Footer second Row End-->
+						 <!--Footer third Row Start-->
+						 <div class="social">
+						     <ul>
+							     <li><a href="#"><img src="./images/twitter.svg" alt="twitterlogo"/>Twitter</a></li>
+       		                     <li><a href="#"><img src="./images/facebook.svg" alt="facebooklogo"/>Facebook</a></li>
+								 <li><a href="#"><img src="./images/instagram.svg" alt="instagramlogo"/>Instagram</a></li>
+								 <li><a href="#"><img src="./images/snapchat.svg" alt="snapchatlogo"/>Snapchat</a></li>
+			                 </ul>
+					     </div>
+						 <!--Footer third Row end-->
+						 <!--Footer Logo Start-->
+						 <div class="footerlogo">
+						     <img src="./images/translogo.png" alt="logo" width="575"/>	 
+						 </div>
+						 <!--Footer Logo End-->
+						 <br/>
+						 <!--Footer Copyright Start-->
+						 <div id="liveclock" onload="showTime()"></div>
+                         <br />
+						 <div class="copydiv">
+						      <p class="copyright">Millennial Accessories &#169; 2021</p>
+						 </div>	  
+						 <!--Footer Copyright End-->
+                 </div>
+             </footer>
+         </div>
+		 <!--Footer End-->
+	</body>
+</html>	

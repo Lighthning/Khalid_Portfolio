@@ -1,0 +1,1442 @@
+/* 
+Filename: style.css
+author: Khalid Yaseen
+Created: 22.09.2021
+last modified: 10.10.2021
+description: CSS for Assignment 1
+*/
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	transition: all 0.7s ease;
+	font-family: Calisto MT, Bookman Old Style, Bookman, Goudy Old Style, Garamond, Hoefler Text, Bitstream Charter, Georgia, serif;
+}
+}	
+/*CSS For Nav*/
+nav{
+	overflow: hidden;
+	background: transparent;
+	padding: 12px;
+	position: relative
+}
+/*CSS For Nav contents*/
+nav a{
+	text-decoration:none;
+	text-align: center;
+	float: left;
+	color: rgb(28,29,29);
+	font-size: 2rem;
+	padding: 30px 25px;
+	font-weight: 650;
+	letter-spacing: 0.5px;
+	text-shadow: rgb(28,29,29) 0.1px 0.1px 1px;
+}
+/*CSS For Index page Backdrop*/
+.backdrop{
+	min-height: 100vh;
+	background: url(../images/backdrop.jpg);
+	background-size: cover;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+}
+
+/*CSS For Nav contents on hover*/
+nav a:hover,.dropdown:hover,.drpbtn:hover,.drpbtnshoes:hover{
+	color: red;
+	text-shadow: red 0.1px 0.1px 2px;
+	font-size: 2.15rem;
+	font-weight: 750;
+
+}
+
+/*active nav bar effect*/
+#active{
+	color: red;
+	text-shadow: red 0.1px 0.1px 2px;
+	font-size: 2.10rem;
+	font-weight: 750;
+}
+	
+/*CSS For Nav contents to be white in color in some pages*/
+.watchnav{
+	text-decoration:none;
+	text-align: center;
+	float: left;
+	color: rgb(246,247,249);
+	font-size: 2rem;
+	padding: 30px 25px;
+	font-weight: 650;
+	letter-spacing:0.5px;
+	text-shadow:  rgb(246,247,249) 0.1px 0.1px 3px;
+}
+/*CSS For Dropdown nav on hover*/
+.drpcont a:hover,.drpcontshoes a:hover{
+	color: red;
+	font-size: 1.9rem;
+	font-weight: 750;
+}
+	
+.dropdown{
+	float:left;
+	overflow: hidden;
+}
+/*CSS For dropdown button*/
+.dropdown,.drpbtn{
+	font-size: 2rem;
+	border: none;
+	margin: 0;
+	outline: none;
+	color: black;
+	padding: 15.5px 28px;
+	background-color: transparent;
+	font-weight: 650;
+	font-family:inherit;
+	letter-spacing: 0.5px;
+	text-shadow: rgb(28,29,29) 0.1px 0.1px 1px;
+}
+/*CSS For dropdown to be white in some pages*/
+.drpbtnshoes{
+    font-size: 2rem;
+	border: none;
+	margin: 0;
+	outline: none;
+	color: white;
+	padding: 15.5px 28px;
+	background-color: transparent;
+	font-weight: 650;
+	font-family:inherit;
+	letter-spacing: 0.5px;
+	text-shadow: rgb(246,247,249) 0.1px 0.1px 3px;
+}
+/*CSS For dropdown nav*/
+.drpcont,.drpcontshoes{
+	display:none;
+	position: absolute;
+	background-color:transparent;
+	min-width:190px;
+	box-shadow:rgb(28,29,29) 0.1px 0.1px 4px;
+	z-index:1;
+}
+/*CSS For dropdown content*/
+.drpcont a{
+    float: none;
+    color: black;
+    padding: 15px 18px;
+    text-decoration:none;
+    display:block;
+    text-align:left;
+	font-size:1.8rem;
+}
+/*CSS For dropdown nav content to be white in some pages*/
+.drpcontshoes a{
+    float: none;
+    color:rgb(246,247,249);
+    padding: 15px 18px;
+    text-decoration:none;
+    display:block;
+    text-align:left;
+	font-size:1.8rem;
+}	
+
+.dropdown:hover .drpcont,.dropdown:hover .drpcontshoes{
+	display:block;
+}
+/*CSS For linear gradient background on dropdown nav*/
+.drpcont a:hover, .drpcontshoes a:hover{ 
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(255,255,255,0.8),rgba(0,0,0,0.3));
+}	 
+
+/*CSS For logo positioning*/
+.logo{
+	position: absolute;
+	bottom: 35%;
+	left: 3%;
+}
+/*CSS For main content background*/
+.secdiv{
+	background:rgb(28,29,29);
+	position: relative;
+	padding: 30px;
+}
+/*CSS For Heading*/
+.intro{
+	text-align:center;
+	padding:2px;
+	background:rgb(246,247,249);
+	position:relative;
+	float:left;
+	border: 0.5px solid rgb(28,29,29);
+	border-radius: 5px;
+	box-shadow: red 0.1px 0.1px 4px;
+}
+/*CSS For subheading*/
+.style{
+	color: #DA0000;
+	font-size: 1.6rem;
+	
+}
+/*CSS For content*/
+.elegant, .ready{
+	color: rgb(28,29,29);
+}
+
+.elegant{
+	padding: 50px;
+	font-size:2rem;
+}
+
+.ready{
+	font-size: 1.3rem;
+}
+/*CSS For positioning worldwide svg*/
+.worldwide{
+	position: absolute;
+	bottom: 20%;
+    left: 16%;
+}
+/*CSS For positioning Freeshipping svg*/
+.freeship{
+	position: absolute;
+	bottom: 20%;
+    left: 35%;
+}
+/*CSS For positioning Warranty svg*/
+.warranty{
+	position: absolute;
+	bottom: 20%;
+    left: 54%;
+}
+/*CSS For positioning Safe & secure svg*/
+.secured{
+	position: absolute;
+	bottom: 20%;
+    left: 73%;
+}
+/*CSS For Reviews Aside holder*/
+.reviews{
+	text-align:center;
+	background:rgb(246,247,249);
+    position:relative;
+	padding:12px 15px;
+	float:right;
+	border: 0.5px solid rgb(28,29,29);
+	border-radius: 5px;
+	box-shadow: red 0.1px 0.1px 4px;
+}
+/*CSS For reviews head*/
+.reviewhead{
+	color:rgb(28,29,29);
+	font-size:1.8rem;
+}
+/*CSS For coloring review paras*/
+.firstrev, .secondrev,.thirdrev{
+	color: rgb(28,29,29);
+}
+/*CSS For coloring the reviewers*/
+.ahmed,.joel,.noman{
+	color:#DA0000;
+}
+/*CSS For Review box*/
+.reviewbox{
+    border:0.5px solid rgb(246,247,249);
+    border-radius:5px;
+	box-shadow: rgb(28,29,29) 0.1px 0.1px 4px;
+	padding:3px;
+    position:relative;
+}	
+/*CSS For positioning rating1 svg*/ 
+.rating1{
+	display:block;
+	position:absolute;
+	top: 27px;
+	right:38%;
+}
+/*CSS For positioning rating2 svg*/ 
+.rating2{
+	display:block;
+	position:absolute;
+	top: 72px;
+	right:38%;
+}
+/*CSS For positioning rating3 svg*/ 
+.rating3{
+	display:block;
+	position:absolute;
+	top: 53px;
+	right:38%;
+}
+/*CSS For Product gallery/link to products*/ 	
+.watches,.sunglasses,.backpacks,.shoes,.others{
+	margin: 40px 0px;
+    padding: 1px;
+	box-shadow: rgb(246,247,249) 0.1px 0.1px 4px;
+}
+/*CSS For products gallery on hover*/ 
+.watches:hover,.sunglasses:hover,.backpacks:hover,.shoes:hover,.others:hover{
+	transform: scale(1.08);
+}
+/*CSS For positioning watch prod img link*/ 
+.watches{
+	position:relative;
+	left:1px;
+	top:35px;
+}
+/*CSS For positioning text inside watch prod img link*/ 
+.watchtxt{
+	position:absolute;
+	top:58.15%;
+	left:18.5%;
+	
+}
+/*CSS For formating texts inside prod img links*/ 
+.textwat,.textgls,.textbag,.textshoe,.textothr{
+	color:rgb(246,247,249);
+	font-size:3rem;
+	text-shadow: rgb(246,247,249) 0.1px 0.1px 2px;
+	font-weight:550;
+}
+
+/*CSS For positioning sunglasses prod img link*/ 
+.sunglasses{
+	position:absolute;
+	top:28.75%;
+	left:33.5%;
+}
+/*CSS For positioning text under watch prod img link*/ 
+.glstxt{
+	position:absolute;
+	top: 42%;
+	left: 48%;
+}
+/*CSS For positioning backpacks prod img link*/ 
+.backpacks{
+	position:absolute;
+	top:28.75%;
+	left:66.75%;
+}
+/*CSS For positioning text under backpacks prod img link*/ 
+.bagstxt{
+	position:absolute;
+	top:42%;
+	right:16%
+}
+/*CSS For positioning shoe prod img link*/ 
+.shoes{
+	position:absolute;
+	top:45%;
+	left:33.5%;
+}
+/*CSS For positioning text inside shoe prod img link*/ 
+.shoetxt{
+	position:absolute;
+	top:58.75%;
+	left:53%;
+}
+
+/*CSS For positioning other prods img link*/ 
+.others{
+    position: absolute;
+    top: 45%;
+    left: 66.75%;
+}	
+/*CSS For positioning text under other prods img link*/ 
+.othrtxt{
+	position:absolute;
+	top:58.75%;
+	right:20.5%;
+}
+/*CSS For Watch page backdrop*/ 
+.backdropwatch{
+	min-height: 100vh;
+	background: url(../images/watches00.jpg);
+	background-size: cover;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+}
+/*CSS For Backpack page backdrop*/ 
+.backdropbag{
+	min-height: 100vh;
+	background: url(../images/bags00.jpg);
+	background-size: cover;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+}
+/*CSS For Sunglasses page backdrop*/ 
+.backdropsun{
+	min-height: 100vh;
+	background: url(../images/sunglasses00.jpg);
+	background-size: cover;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+}
+/*CSS For Shoe page backdrop*/ 
+.backdropshoe{
+	min-height: 100vh;
+	background: url(../images/shoes10.jpg);
+	background-size: cover;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+}
+/*CSS For Profile page backdrop*/ 
+.backdropprofile{
+	min-height: 100vh;
+	background: url(../images/profile.jpg);
+	background-size: cover;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+}
+/*CSS For Enquiery page backdrop*/ 
+.backdropenquiry{
+	min-height: 100vh;
+	background: url(../images/enquiry.jpg);
+	background-size: cover;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+}
+/*CSS For other prods page backdrop*/ 
+.backdropothers{
+	min-height: 100vh;
+	background: url(../images/others.jpg);
+	background-size: cover;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+}
+/*CSS For disclaimer page backdrop*/ 
+.backdropdisclaimer{
+	min-height: 100vh;
+	background: url(../images/disclaimer.jpg);
+	background-size: cover;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+}
+/*CSS For enhancement page backdrop*/ 
+.backdropenhance{
+	min-height: 100vh;
+	background: url(../images/enhancement.jpg);
+	background-size: cover;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+}
+.backdropenhancement{
+	min-height: 100vh;
+	background: url(../images/java.jpg);
+	background-size: cover;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+}
+/*CSS For Acknowledgement page backdrop*/ 
+.backdropack{
+	min-height: 100vh;
+	background: url(../images/acknowledgements.jpg);
+	background-size: cover;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+}
+
+/*CSS For Footer formating*/ 
+.footer{
+    padding: 30px;
+    background-color: rgb(246,247,249);
+    color: rgb(28,29,29);
+}
+/*CSS For footer content formating*/ 
+.footer ul{
+    padding: 0;
+	font-size:18px;
+	line-height:1.8;
+	list-style:none;
+	margin-bottom:0;
+}
+/*CSS For footer content*/
+.footer ul a{
+	color:inherit;
+	text-decoration:none;
+	opacity:0.8;
+}
+/*CSS For footer content on hover*/
+.footer ul a:hover, .social a:hover{
+	opacity:1;
+	color:#DA0000;
+}
+/*CSS For footer content heads*/
+.firstcol,.secondcol, .social{
+	float: right; 
+	padding:20px 80px;
+}
+/*CSS For footer social media svgs*/
+.social img{
+    display: inline-flex;
+    align-self: center;
+    height:1em;
+    width:1em;
+    top: .125em;
+    position: relative;
+}
+/*CSS For footer copyright formating*/
+.footer .copydiv{
+	font-size:17px;
+	text-align: center;
+	opacity:0.6;
+}
+/*CSS For products heading*/
+.ourproducts{
+	color: rgb(246,247,249);
+	text-align:center;
+	font-size: 3.75rem;
+	text-shadow: rgb(246,247,249) 0.1px 0.1px 4px;
+	letter-spacing:0.1px;
+	text-transform: uppercase;
+}
+/*CSS For products housing*/
+.producthouse{
+	color:rgb(28,29,29);
+	padding: 25px 10px;
+	background-color: rgb(246,247,249);
+	border-radius:5px;
+	box-shadow: rgb(246,247,249) 0.8px 0.8px 10px;
+}
+/*CSS For product house on hover*/
+.producthouse:hover{
+	transform:scale(1.015);
+}
+/*CSS For positioning product images*/
+.productimg{
+    float:left;
+}
+/*CSS For positioning product images*/
+.productimgd{
+    float:left;
+	margin-top:40px;
+}
+/*CSS For positioning product images*/
+.productimggls{
+    float:left;
+	margin-top:80px;
+}
+/*CSS For positioning product images*/
+.productimgglstom{
+    float:left;
+	margin-top:150px;
+}
+/*CSS For positioning product images*/
+.productimgb{
+    float:left;
+	margin-top:30px;
+	margin-left:28px;
+}
+/*CSS For product images on hover*/
+.productimg:hover, .productimgd:hover, .productimgb:hover,.productimggls:hover, .productimgglstom:hover {
+	transform:scale(1.07);
+}
+/*CSS For product details formating*/
+.productdetails{
+    padding:25px;
+	margin-left:380px;
+	margin-right:50px;
+	border-radius:5px;
+	
+}
+/*CSS For product details formating*/
+.productdetailsgls{
+    padding:25px;
+	margin-left:500px;
+	margin-right:30px;
+	border-radius:5px;	
+}
+/*CSS For product details formating*/
+.proddet{
+	padding:20px;
+}
+/*CSS For product details formating*/
+.detcontn{
+	text-transform:uppercase;
+	position:absolute;
+	display:block;
+	width:50%;
+	font-weight:530;
+	font-size: 1rem;
+	text-shadow:red 0.1px 0.1px 1px;
+	letter-spacing:1px;
+	color:red;
+}
+/*CSS For product details formating*/
+.detconte{
+	position:absolute;
+	display:block;
+	width:50%;
+	font-size: 1.2rem;
+	font-weight:600;
+}
+/*CSS For product details formating*/
+.detcontns{
+	position:relative;
+	font-size: 1.2rem;
+	font-weight:600;
+}
+/*CSS For product details formating*/
+.detcontd{
+	position:relative;
+	display:block;
+	width:50%;
+	margin-left:500px;
+	font-size:1rem;
+	font-weight:500;
+	margin-right:100px;
+	
+}
+/*CSS For product details formating*/
+.detcontde{
+	position:relative;
+	display:block;
+	width:50%;
+	margin-left:500px;
+	font-size:1.2rem;
+	font-weight:600;
+	margin-right:100px;
+	
+}
+/*CSS For product details formating*/
+.detailsheading{
+	text-shadow:rgb(28,29,29) 0.1px 0.1px 3px;
+	font-size: 1.9rem;
+	margin-left: 380px;
+	letter-spacing:0.3px;
+	color:rgb(28,29,29);
+	text-transform:uppercase;
+	
+}
+/*CSS For product details formating*/
+.detailsheadingd{
+	text-shadow:rgb(28,29,29) 0.1px 0.1px 3px;
+	font-size: 2rem;
+	margin-left: 520px;
+	letter-spacing:0.2px;
+	color:rgb(28,29,29);
+	text-transform:uppercase;
+}
+/*CSS For product details formating*/
+.detailsheadingb{
+	text-shadow:rgb(28,29,29) 0.1px 0.1px 3px;
+	font-size: 2.1rem;
+	margin-left: 572px;
+	letter-spacing:0.4px;
+	color:rgb(28,29,29);
+	text-transform:uppercase;
+}
+/*CSS For product details formating*/
+.detailsheadingrb{
+	text-shadow:rgb(28,29,29) 0.1px 0.1px 3px;
+	font-size: 2.1rem;
+	margin-left: 725px;
+	letter-spacing:0.4px;
+	color:rgb(28,29,29);
+	text-transform:uppercase;
+}
+/*CSS For product details formating*/
+.detailsheadinggls{
+	text-shadow:rgb(28,29,29) 0.1px 0.1px 3px;
+	font-size: 2.1rem;
+	margin-left: 775px;
+	letter-spacing:0.4px;
+	color:rgb(28,29,29);
+	text-transform:uppercase;
+}
+/*CSS For product details formating*/
+.detailsheadingrbo{
+	text-shadow:rgb(28,29,29) 0.1px 0.1px 3px;
+	font-size: 2.2rem;
+	margin-left: 690px;
+	letter-spacing:0.4px;
+	color:rgb(28,29,29);
+	text-transform:uppercase;
+}
+/*CSS For product details formating*/
+.detailsheadingbg{
+	text-shadow:rgb(28,29,29) 0.1px 0.1px 3px;
+	font-size: 2.2rem;
+	margin-left: 600px;
+	letter-spacing:0.4px;
+	color:rgb(28,29,29);
+	text-transform:uppercase;
+}
+/*CSS For creating a line*/
+.line{  
+    height: 0.5px;
+    background: rgb(28,29,29);
+}
+/*CSS For more info button*/
+.infobtn{
+	padding:7px;
+	text-transform:uppercase;
+	background-color:rgb(246,247,249);
+	color: red;
+	font-size:1rem;
+	text-shadow: #DA0000 0.1px 0.1px 2px;
+	font-weight:500;
+	letter-spacing:1px;
+	margin-left:50px;
+	width: 230px;
+	height:50px;
+	border-radius:5px;
+	border:1.p6x solid rgb(28,29,29);
+	text-align:center;
+	text-justify:center;
+	box-shadow:rgb(28,29,29) 0.1px 0.1px 5px;
+	float:left;
+}
+/*CSS For more info button on some pages which require different sizing*/
+.infobtngls{
+	padding:7px;
+	font-size:1rem;
+	text-transform:uppercase;
+	background-color:rgb(246,247,249);
+	color: red;
+	text-shadow: #DA0000 0.1px 0.1px 2px;
+	font-weight:500;
+	letter-spacing:1px;
+	margin-left:20px;
+	width: 450px;
+	height: 50px;
+	text-justify:center;
+	border:1.6px solid rgb(28,29,29);
+	text-align:center;
+	border-radius:5px;
+	box-shadow:rgb(28,29,29) 0.1px 0.1px 5px;
+	float:left;
+}
+/*CSS For more info button on hover*/
+.infobtn:hover, .infobtngls:hover{
+	transform:scale(1.08);
+	box-shadow:red 0.1px 0.1px 4px;
+	
+}
+/*CSS For Enquiry button on hover*/
+.enquirybtn:hover, .enquirybtngls:hover{
+	transform:scale(1.05);
+	box-shadow:red 0.1px 0.1px 4px;
+}
+/*CSS For Enquiry button*/
+.enquirybtn{
+	padding:14px 10px;
+	text-transform:uppercase;
+	background-color:rgb(246,247,249);
+	color: red;
+	font-size:1rem;
+	text-shadow: #DA0000 0.1px 0.1px 2px;
+	font-weight:500;
+	letter-spacing:1px;
+	margin-left:120px;
+	width: 1000px;
+	height:50px;
+	border-radius:5px;
+	box-shadow:rgb(28,29,29) 0.1px 0.1px 4px;
+}
+/*CSS For enquiry button on some pages which require different sizing*/
+.enquirybtngls{
+	padding:14px 10px;
+	font-size:1rem;
+	text-transform:uppercase;
+	background-color:rgb(246,247,249);
+	color: red;
+	text-shadow: #DA0000 0.1px 0.1px 2px;
+	font-weight:500;
+	letter-spacing:1px;
+	margin-left:50px;
+	width: 870px;
+	height: 50px;
+	border-radius:5px;
+	box-shadow:rgb(28,29,29) 0.1px 0.1px 4px;
+}
+/*CSS For Contact form holder*/
+.formholder{
+	color:rgb(28,29,29);
+	margin: 10px 50px 10px 50px;
+	padding: 30px 15px;
+	background-color: rgb(246,247,249);
+	border-radius:5px;
+	box-shadow: rgb(246,247,249) 0.8px 0.8px 15px;
+}
+
+/*CSS For form fieldset*/	
+fieldset{
+	padding: 20px 30px 20px 20px;
+	width: 95%;
+	padding:5px;
+	margin:10px;
+	border:2.5px solid rgb(28,29,29);
+	box-shadow: red 0.1px 0.1px 5px;
+
+}
+/*CSS For form labels*/
+.labels{
+	text-transform:uppercase;
+	position:absolute;
+	display:block;
+	width:50%;
+	font-weight:600;
+	font-size: 1.3rem;
+	text-shadow:rgb(28,29,29) 0.1px 0.1px 1px;
+	letter-spacing:1px;
+	color:rgb(28,29,29);
+	padding: 5px 5px 5px 100px;
+}
+/*CSS For form inputs*/
+.inputs{
+	position:relative;
+	display:block;
+	width:60%;
+	margin:10px 20px 10px 500px ;
+	padding:5px;
+	border:1px solid rgb(246,247,249);
+	box-shadow: #DA0000 0.1px 0.1px 5px;
+	background-color: rgb(28,29,29);
+	color: rgb(246,247,249);
+	border-radius:3px;
+	font-size:1em;
+	font-weight:550;
+	
+}
+/*CSS For fieldset legend*/
+.address{
+	text-transform:uppercase;
+	font-weight:600;
+	font-size: 1rem;
+	text-shadow:rgb(28,29,29) 0.1px 0.1px 1px;
+	letter-spacing:2px;
+    background-color: rgb(28,29,29);
+	color: rgb(246,247,249);
+	font-size:1.3em;
+	border: 3px solid rgb(28,29,29);
+	box-shadow: red 0.1px 0.1px 5px;
+	text-align: center;
+	padding:3px 20px;
+}
+/*CSS For form buttons*/
+.buttons{
+	width:90%;
+	margin-left:60px;
+	padding:10px;
+	border-radius:5px;
+	background-color: rgb(28,29,29);
+	color:rgb(246,247,249);
+	box-shadow: #DA0000 0.1px 0.1px 5px;
+	font-size:1em;
+	font-weight:550;
+}
+/*CSS For form buttons on hover*/	
+.buttons:hover{
+    transform: scale(1.035);
+    box-shadow: #DA0000 0.1px 0.1px 8px;
+    font-weight: 750;	
+}
+/*CSS For Disclaimer holder*/
+.disclaimerholder{
+	background-color: rgb(246,247,249);
+	color: rgb(28,29,29);
+	border-radius:5px;
+	box-shadow: rgb(246,247,249) 0.8px 0.8px 15px;
+	padding: 25px 30px;
+}
+/*CSS For Disclaimer content formating*/
+.disclaimerholder ul{
+	border: 3px solid rgb(28,29,29);
+	padding: 25px 35px;
+}
+/*CSS For Disclaimer content*/
+.disclaimerholder ul li{
+    font-size: 1.4em;
+    color: rgb(28,29,29);
+	padding: 7px;
+}
+/*CSS For Profile holder*/
+.profileholder{
+	background-color: rgb(28,29,29);
+	color: rgb(246,247,249);
+	border-radius:5px;
+	box-shadow: rgb(246,247,249) 0.8px 0.8px 10px;
+	padding: 20px;
+}
+ /*CSS For profile picture*/   	
+.dp{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	border: 5px groove rgb(246,247,249) ;
+    padding: 20px;
+}
+ /*CSS For profile picture on hover*/   	
+.dp:hover{
+	transform:scale(1.02);
+}
+ /*CSS For profile name*/   	
+.yourname{
+	text-align:center;
+	font-weight:bold;
+	font-size:200%;
+}
+ /*CSS For profile studentid*/   	
+.stno{
+	font-family: aerial, san serif;
+	text-align: center;
+	font-size:110%;
+	font-weight:550;
+}
+ /*CSS For course to be in red*/   	
+.baict{
+	color: rgb(255,0,0);
+}
+ /*CSS For profile content*/   	
+.ict{
+	text-align:center;
+	font-size: 120%;
+}
+ /*CSS For profile table formating*/   	
+.profiletable{
+	display: block;
+    text-align: center;
+	background-color:#1C1D1D;
+	color:rgb(28,29,29);
+	padding:20px;
+    font-size:1.1em;
+	margin-left: auto;
+	margin-right: auto;
+}
+ /*CSS For profile table background*/  
+.profiletable tr{
+    background-color:#f6f7f9;
+}
+ /*CSS For profile table contents*/  
+.profiletable th, .profiletable td{
+    padding:30px;
+	box-shadow: #DA0000 0.1px 0.1px 8px;
+}
+ /*CSS For profile table contents*/  
+.profiletable th{
+    font-size:1.2em;
+}
+/*CSS For Enquiry process table formating*/ 
+.enquiryprocesstable{
+    text-align: center;
+	background-color:#1C1D1D;
+	color:rgb(28,29,29);
+	padding:20px;
+    font-size:1.1em;
+	margin-left: auto;
+	margin-right: auto;
+}
+ /*CSS For Enquiry table background*/  
+ .enquiryprocesstable tr{
+    background-color:#f6f7f9;
+}
+ /*CSS For Enquiry table contents*/  
+.enquiryprocesstable th, .enquiryprocesstable td{
+    padding:30px 150px;
+	box-shadow: #DA0000 0.1px 0.1px 8px;
+	
+}
+ /*CSS For Enquiry table contents*/  
+.enquiryprocesstable th{
+    font-size:1.2em;
+}
+/*CSS For Vie Enquiry table formating*/ 
+.viewenquirytable{
+	text-align: center;
+	background-color:#1C1D1D;
+	color:rgb(28,29,29);
+	padding:15px;
+    font-size:0.9em;
+	margin-left: auto;
+	margin-right: auto;
+}
+ /*CSS For Enquiry table background*/  
+ .viewenquirytable tr{
+    background-color:#f6f7f9;
+}
+ /*CSS For Enquiry table contents*/  
+ .viewenquirytable th, .viewenquirytable td{
+    padding:20px;
+	box-shadow: #DA0000 0.1px 0.1px 8px;
+}
+ /*CSS For Enquiry table contents*/  
+ .viewenquirytable th{
+    font-size:1.1em;
+}
+ /*CSS For profile Email*/  
+.mail{
+    display:block;
+	text-align:center;
+	font-size:1.2em;
+	color: rgb(246,247,249);
+}	
+ /*CSS For profile emal on hover*/  
+.mail:hover{
+	transform:scale(1.15);
+	color:red;
+}
+ /*CSS For Acknowledgement holder*/  
+.ack{
+	background-color: rgb(246,247,249);
+	color: rgb(28,29,29);
+	border-radius:5px;
+	box-shadow: rgb(246,247,249) 0.8px 0.8px 15px;
+	padding: 25px 30px;
+}
+ /*CSS For Acknowledgement heading*/  
+.ackhead{
+	text-align:center;
+	font-size: 2.5rem;
+	text-shadow: rgb(28,29,29) 0.1px 0.1px 2px;
+	letter-spacing:0.2px;
+	text-transform: uppercase;
+}
+ /*CSS For Acknowledgement links*/  
+.acklinks{
+	color: rgb(28,29,29);
+	font-size:1.2rem;
+	font-weight:550;
+	border:3px solid rgb(28,29,29);
+    border-radius: 5px;
+    box-shadow: rgb(28,29,29) 0.1px 0.1px 5px;
+	padding:5px;
+	margin:10px;
+}	
+ /*CSS For Acknowledgement links on hover*/  
+.acklinks:hover{
+	box-shadow: rgb(28,29,29)0.1px 0.1px 15px;
+}
+ /*CSS For Acknowledgement note*/  
+.note{
+	text-align:center;
+	font-size: 1.25rem;
+	letter-spacing:0.1px;
+}
+ /*CSS For Enhancement page heading*/  
+.enhancehead{
+	font-size: 2.25rem;
+	letter-spacing:0.2px;
+}
+ /*CSS For Enhancement page content*/  
+.enhancepara{
+	font-size: 1.2rem;
+	padding: 7px;
+	font-weight:550;
+	color: rgb(28,29,29)
+	
+}
+ /*CSS For Responsive page when page is resized below 1511px*/  
+@media all and (max-width: 1511px){
+	.elegant{
+		font-size: 1.6rem;
+	}
+	.style{
+		font-size:1.4rem;
+	}
+	.ready{
+		font-size:1.1rem;
+	}
+	.reviewhead{
+		font-size:1.5rem;
+	}
+	.firstrev,.secondrev,.thirdrev{
+		font-size:0.9rem;
+	}
+	.reviews img{
+		width:55px;
+	}
+	.watches{
+		width:385px;
+	}
+	.sunglasses, .backpacks, .shoes, .others{
+		width:400px;
+	}
+	.productimgs p{
+		font-size:2.2rem;
+	}
+	nav a,.watchnav,.drpbtn,.drpbtnshoes,.drpcont a,.drpcontshoes a{
+		font-size:1.65rem
+	}
+	nav a:hover,.dropdown:hover,.drpbtn:hover,.drpbtnshoes:hover,.drpcont a:hover,.drpcontshoes a:hover,#active{
+		font-size:1.75rem;
+	}
+	.logo img{
+		width:65%;
+	}
+	.footerlogo img{
+		width:30%;
+	}
+	.footer li{
+		font-size:16px;
+	}
+	.producthead h1{
+		font-size:1.6rem;
+	}
+	.detcontn{
+		font-size:0.8rem;
+		width:20%;
+	}
+	.detcontd{
+		font-size:0.8rem;
+		width:30%;
+		margin-left:380px;
+	}
+	.detcontde{
+		font-size:0.85rem;
+		width:30%;
+		margin-left: 380px;
+	}
+	.detcontns,.detconte{
+		font-size:0.85rem;
+		width:30%;
+	}
+	.infobtn{
+		width:250px;
+	}
+	.infobtngls{
+		width:400px;
+	}
+	.enquirybtn{
+		width:750px
+	}
+	.enquirybtngls{
+		width:700px
+	}
+	.producthouse img{
+		width:280px;
+	}
+	.productimgb img{
+		width:260px;
+	}
+	.fieldset{
+		width:85%;
+	}
+	.labels{
+		width:40%;
+	}
+	.inputs{
+		width:55%;
+		margin-left:450px;
+	}
+	.buttons{
+		width:87%;
+	}	
+}
+/*CSS For Responsive page when page is resized below 1285px*/  
+@media all and (max-width: 1285px){
+	.elegant{
+		font-size: 1.4rem;
+	}
+	.style{
+		font-size:1.2rem;
+	}
+	.ready{
+		font-size:1rem;
+	}
+	.intro img{
+		width:80px;
+	}
+	.reviewhead{
+		font-size:1.3rem;
+	}
+	.firstrev,.secondrev,.thirdrev{
+		font-size:0.8rem;
+	}
+	.reviews img{
+		width:45px;
+	}
+	.watches{
+		width:335px;
+	}
+	.sunglasses, .backpacks, .shoes, .others{
+		width:350px;
+	}
+	.productimgs p{
+		font-size:1.7rem;
+	}
+	nav a,.watchnav,.drpbtn,.drpbtnshoes,.drpcont a,.drpcontshoes a{
+		font-size:1.35rem
+	}
+	nav a:hover,.dropdown:hover,.drpbtn:hover,.drpbtnshoes:hover,.drpcont a:hover,.drpcontshoes a:hover,#active{
+		font-size:1.5rem;
+	}
+	.logo img{
+		width:55%;
+	}
+	.footerlogo img{
+		width:27%;
+	}
+	.footer li{
+		font-size:14px;
+	}
+	.producthead h1{
+		font-size:1.4rem;
+	}
+	.detcontn{
+		font-size:0.7rem;
+		width:20%;
+	}
+	.detcontd{
+		font-size:0.7rem;
+		width:20%;
+		margin-left:300px;
+	}
+	.detcontde{
+		font-size:0.75rem;
+		width:20%;
+		margin-left: 300px;
+	}
+	.detcontns,.detconte{
+		font-size:0.75rem;
+		width:20%;
+	}.
+	.infobtn{
+		width:250px;
+	}
+    .infobtngls{
+		width:320px;
+	}
+	.enquirybtn{
+		width:600px
+	}
+	.enquirybtngls{
+		width:670px
+	}
+	.producthouse img{
+		width:280px;
+	}
+	.productimgb img{
+		width:260px;
+	}
+		.fieldset{
+		width:85%;
+	}
+	.labels{
+		width:40%;
+	}
+	.inputs{
+		width:50%;
+		margin-left:400px;
+	}
+	.buttons{
+		width:87%;
+	}	
+}
+ /*CSS For Responsive page when page is resized below 1147px*/  
+@media all and (max-width: 1147px){
+	.elegant{
+		font-size: 1rem;
+	}
+	.style{
+		font-size:0.9rem;
+	}
+	.ready{
+		font-size:0.8rem;
+	}
+	.intro img{
+		width:60px;
+	}
+	.reviewhead{
+		font-size:1rem;
+	}
+	.firstrev,.secondrev,.thirdrev{
+		font-size:0.7rem;
+	}
+	.reviews img{
+		width:28px;
+	}
+	.watches{
+		width:260px;
+	}
+	.sunglasses, .backpacks, .shoes, .others{
+		width:280px;
+	}
+	.productimgs p{
+		font-size:1.2rem;
+	}
+	nav a,.watchnav,.drpbtn,.drpbtnshoes,.drpcont a,.drpcontshoes a{
+		font-size:0.95rem
+	}
+	nav a:hover,.dropdown:hover,.drpbtn:hover,.drpbtnshoes:hover,.drpcont a:hover,.drpcontshoes a:hover, #active{
+		font-size:1.1rem;
+	}
+	.logo img{
+		width:45%;
+	}
+	.footerlogo img{
+		width:20%;
+	}
+	.footer li{
+		font-size:9px;
+	}
+	.producthead h1{
+		font-size:1.2rem;
+	}
+	.detcontn{
+		font-size:0.7rem;
+		width:20%;
+	}
+	.detcontd{
+		font-size:0.7rem;
+		width:20%;
+		margin-left:200px;
+	}
+	.detcontde{
+		font-size:0.75rem;
+		width:20%;
+		margin-left: 200px;
+	}
+	.detcontns,.detconte{
+		font-size:0.75rem;
+		width:20%;
+	}.
+	.infobtn{
+		width:230px;
+	}
+	.infobtngls{
+		width:280px;
+	}
+	.enquirybtn{
+		width:420px
+	}
+	.enquirybtngls{
+		width:450px
+	}
+	.producthouse img{
+		width:280px;
+	}
+	.productimgb img{
+		width:260px;
+	}
+	.fieldset{
+		width:85%;
+	}
+	.labels{
+		width:40%;
+	}
+	.inputs{
+		width:50%;
+		margin-left:350px;
+	}
+	.buttons{
+		width:85%;
+	}	
+}
+
+#liveclock{
+
+    color: rgb(28,29,29);
+	opacity: 0.7;
+    font-size: 25px;
+    font-family:Copperplate;
+	font-weight: 700;
+    letter-spacing: 7px;
+	justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#liveclock:hover{
+	opacity: 1.0;
+	font-size: 30px;
+	color: #DA0000;
+}
+
+.slideshowhouse{
+	box-sizing: border-box;
+	margin: auto;
+	min-height: 750px;
+	position: relative;
+	justify-content: center;
+    align-items: center;
+    text-align: center;
+	padding:2px;
+	background:rgb(246,247,249);
+	border: 0.5px solid rgb(28,29,29);
+	border-radius: 5px;
+	box-shadow: red 0.1px 0.1px 10px;
+
+}
+
+.slideshowhouse img{
+	position: absolute;
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+	justify-content: center;
+	align-items: center;
+    text-align: center;
+	display: inline-block;
+    vertical-align: middle;
+	left:37%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+}
+
+.slideheaddiv{
+	text-align:center;
+	margin: 10px 10px;
+	padding:25px 5px 25px 5px;
+	background:rgb(246,247,249);
+	border: 1.5px solid rgb(246,247,249);
+	border-radius: 5px;
+	box-shadow: rgb(28,29,29) 0.1px 0.1px 20px;
+}
+
+.slidehead{
+	letter-spacing: 1.5px;
+	color:rgb(28,29,29);
+	font-size:3rem;
+	text-shadow: rgb(28,29,29) 0.1px 0.1px 5px;
+	font-weight:550;
+}
+
+#myBtn {
+	display: none; 
+	position: fixed; 
+	bottom: 20px; 
+	right: 30px; 
+	z-index: 99; 
+	background-color: rgb(246,247,249); 
+	color: rgb(246,247,249); 
+	cursor: pointer; 
+	padding: 15px; 
+	border-radius: 50%; 
+	height: 70px;
+	width: 70px;
+	font-size: 10px; 
+	box-shadow: rgb(28,29,29) 0.1px 0.1px 40px;
+	border: none;
+	justify-content: center;
+	align-items: center;
+    text-align: center;
+	transition: all 1s ease;
+}
+
+#myBtn:hover {
+	background-color: #DA0000; 
+	box-shadow: rgb(28,29,29) 0.1px 0.1px 60px;
+	transform: scale(1.15);
+	transition: all 0.7s ease;
+}
+
+.flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    text-align: center;
+}
+.header-sub-title {
+	letter-spacing: 1.5px;
+	color:rgb(28,29,29);
+	font-size:3rem;
+	text-shadow: rgb(28,29,29) 0.1px 0.1px 5px;
+	font-weight:550;
+}
+.EnquiryProcessConfirm{
+	letter-spacing: 0.5px;
+	color: rgb(246,247,249);
+	text-align: center;
+	text-shadow: rgb(246,247,249) 0.1px 0.1px 2px;
+	font-weight:550;
+}

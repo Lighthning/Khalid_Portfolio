@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/heritage_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="10dp"
+        app:srcCompat="@drawable/room1_icon" />
+
+    <TextView
+        android:id="@+id/heritage_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/heritage_apartment"
+        app:layout_constraintLeft_toRightOf="@id/heritage_image"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+
+    <ImageView
+        android:id="@+id/heritage_loc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/pin"
+        app:layout_constraintLeft_toRightOf="@id/heritage_image"
+        app:layout_constraintTop_toBottomOf="@id/heritage_text"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/heritage_loctext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/old_town_area"
+        app:layout_constraintLeft_toRightOf="@id/heritage_loc"
+        app:layout_constraintTop_toBottomOf="@id/heritage_text"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/Orange"/>
+
+    <ImageView
+        android:id="@+id/heritage_rate"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/rate"
+        app:layout_constraintLeft_toRightOf="@id/heritage_image"
+        app:layout_constraintTop_toBottomOf="@id/heritage_loc"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/heritage_ratetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_5_stars"
+        app:layout_constraintLeft_toRightOf="@id/heritage_rate"
+        app:layout_constraintTop_toBottomOf="@id/heritage_loc"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/DarkBlue"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/heritage_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rm_500"
+        android:textColor="@color/DarkBlue"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="bold"
+        android:textSize="23dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Assignment3_Task1</string>
+    <string name="heritage_apartment">Heritage Apartment</string>
+    <string name="old_town_area">Old Town Area</string>
+    <string name="_5_stars">5 Stars</string>
+    <string name="rm_500">RM 500</string>
+    <string name="room_size_28_meter">Room Size: 28 meter</string>
+    <string name="_10_mins_to_city_center">10 mins to City Center</string>
+    <string name="facilities">Facilities</string>
+    <string name="select_booking_date">Select Booking Date</string>
+    <string name="check_in_date">Check-in Date</string>
+    <string name="check_out_date">Check-Out Date</string>
+    <string name="select_room_type">Select Room Type</string>
+    <string name="total">Total:</string>
+    <string name="book_now">BOOK NOW</string>
+    <string name="executive_rm1200">Executive - RM1200</string>
+    <string name="your_booking_information">Your Booking Information</string>
+    <string name="room_type">Room Type:</string>
+    <string name="check_in_date_order">Check-In Date:</string>
+    <string name="check_out_date_ordeer">Check-Out Date:</string>
+    <string name="total_amount">Total Amount:</string>
+    <string name="_2">2</string>
+</resources>

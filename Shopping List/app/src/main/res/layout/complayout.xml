@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageViewUrgent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/urgent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/textViewitemname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/item_name"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/imageViewUrgent"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/DarkGreen"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/textViewqty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/qty_1"
+        app:layout_constraintTop_toBottomOf="@id/textViewitemname"
+        app:layout_constraintLeft_toRightOf="@id/imageViewUrgent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="4dp"
+        android:textColor="@color/DarkGreen"/>
+
+    <TextView
+        android:id="@+id/textViewsize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/size_default"
+        app:layout_constraintTop_toBottomOf="@id/textViewitemname"
+        app:layout_constraintLeft_toRightOf="@id/textViewqty"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/DarkGreen"/>
+
+
+    <TextView
+        android:id="@+id/textViewDatehead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date bought: "
+        app:layout_constraintLeft_toRightOf="@id/textViewsize"
+        app:layout_constraintTop_toBottomOf="@id/textViewitemname"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/DarkGreen"/>
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="27 Nov 2022"
+        app:layout_constraintLeft_toRightOf="@id/textViewDatehead"
+        app:layout_constraintTop_toBottomOf="@id/textViewitemname"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="2dp"
+        android:textColor="@color/DarkGreen"/>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintTop_toBottomOf="@id/textViewsize"
+        android:layout_marginTop="7dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

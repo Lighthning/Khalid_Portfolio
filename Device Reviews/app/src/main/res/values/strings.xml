@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Assignment4_Task1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="iphone_13_pro">Iphone 13 Pro</string>
+    <string name="apple_a15_bionic">Apple A15 Bionic</string>
+    <string name="_128gb_6gb_ram">128GB 6GB RAM</string>
+    <string name="_12mp">12MP</string>
+</resources>

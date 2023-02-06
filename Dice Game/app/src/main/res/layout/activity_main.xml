@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/pone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/player_1"
+        android:textColor="@color/Red"
+        android:textStyle="bold"
+        android:layout_marginTop="7dp"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/divider"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ponesco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/ponescore"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintTop_toBottomOf="@id/pone"
+        android:text="@string/ponescore"
+        android:textStyle="bold"
+        android:textColor="@color/Blue"
+        android:textSize="20sp"
+        android:layout_marginTop="3dp"/>
+
+    <TextView
+        android:id="@+id/ponescore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/ponesco"
+        app:layout_constraintTop_toTopOf="@id/ponesco"
+        app:layout_constraintRight_toLeftOf="@id/divider"
+        android:text="@string/_0"
+        android:textStyle="bold"
+        android:textColor="@color/Blue"
+        android:textSize="20sp"
+        android:layout_marginLeft="5dp"/>
+
+    <ImageView
+        android:id="@+id/ponedice1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/divider"
+        app:layout_constraintTop_toBottomOf="@id/ponescore"
+        app:srcCompat="@drawable/dice_one"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/ponenumthr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/ponedice1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/ponenumthrown"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        android:layout_marginTop="7dp"
+        android:text="@string/number_thrown"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/ponenumthrown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/ponenumthr"
+        app:layout_constraintLeft_toRightOf="@id/ponenumthr"
+        app:layout_constraintRight_toLeftOf="@id/divider"
+        android:text="@string/_00"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginLeft="5dp"/>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="3dp"
+        android:layout_height="match_parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/ptwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/player_2"
+        android:textColor="@color/Red"
+        android:textStyle="bold"
+        android:layout_marginTop="7dp"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toRightOf="@id/divider"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/ptwosco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/score_0"
+        app:layout_constraintLeft_toRightOf="@id/divider"
+        app:layout_constraintRight_toLeftOf="@id/ptwoscore"
+        app:layout_constraintTop_toBottomOf="@id/ptwo"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        android:textStyle="bold"
+        android:textColor="@color/Blue"
+        android:textSize="20sp"
+        android:layout_marginTop="3dp"/>
+
+    <TextView
+        android:id="@+id/ptwoscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_000"
+        app:layout_constraintLeft_toRightOf="@id/ptwosco"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/ptwosco"
+        android:textStyle="bold"
+        android:textColor="@color/Blue"
+        android:textSize="20sp"
+        android:layout_marginLeft="5dp"/>
+
+    <ImageView
+        android:id="@+id/ptwodice1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/dice_one"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/divider"
+        app:layout_constraintTop_toBottomOf="@id/ptwoscore"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/ptwonumthr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/number_thrown_ptwo"
+        app:layout_constraintLeft_toRightOf="@id/divider"
+        app:layout_constraintRight_toLeftOf="@id/ptwonumthrown"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/ptwodice1"
+        android:layout_marginTop="7dp"/>
+
+    <TextView
+        android:id="@+id/ptwonumthrown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_0000"
+        app:layout_constraintLeft_toRightOf="@id/ptwonumthr"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="@id/ptwonumthr"
+        android:layout_marginLeft="5dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

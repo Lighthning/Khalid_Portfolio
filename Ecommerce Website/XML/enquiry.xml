@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Enquiry</title>
+    <link rel="stylesheet" type="text/css" href="./style/style.css" />
+    <script src="/script/script.js"></script>
+  </head>
+
+  <body>
+    <!--Backdrop image-->
+    <div class="backdropenquiry">
+      <header>
+		<button onclick="topFunction()" id="myBtn" title="Top"><img src="./images/angle-double-up-solid.svg" width="30px" height="40px" alt="back to top"/></button>
+        <!--Navigation Bar Start-->
+        <nav>
+          <a class="watchnav" href="./index.html">Home</a>
+          <!--Dropdown menu start-->
+          <div class="dropdown">
+            <button class="drpbtnshoes">Shop
+              <i class="shpbtn"></i>
+            </button>
+            <div class="drpcontshoes">
+              <div class="drpcontshoes" name="shoplist" id="shop" onchange="change()">
+                <optgroup>
+                  <script>
+                    shop()
+                  </script>
+                </optgroup>
+              </div>
+            </div>
+          </div>
+          <!--Dropdown menu end-->
+          <a class="watchnav" id="active" href="./enquiry.html">Enquiry</a>
+          <a class="watchnav" href="./profile.html">Profile</a>
+          <a class="watchnav" href="./disclaimer.html">Disclaimer</a>
+          <a class="watchnav" href="./acknowledgements.html">Acknowledgement</a>
+          <div class="dropdown">
+            <button class="drpbtnshoes">Enhancements
+              <i class="shpbtn"></i>
+            </button>
+            <div class="drpcontshoes" name="Enhancements" id="enhance" onchange="change()">
+              <optgroup>
+                <script>
+                  enhance()
+                </script>
+              </optgroup>
+            </div>
+          </div>
+        </nav>
+        <!--Navigation Bar End-->
+      </header>
+      <!--Logo Start-->
+      <section class="logo">
+        <img src="./images/translogo.png" width="700" alt="Logo" />
+      </section>
+      <!--Logo End-->
+    </div>
+
+    <!--Enquiry Section Start-->
+    <div class="secdiv">
+      <!--Enquiry Section Heading-->
+      <section>
+        <h1 class="ourproducts">Contact Us</h1>
+        <br />
+        <!--Enquiry Form Holder Starts-->
+        <div class="formholder">
+          <!--Enquiry Form Starts-->
+          <form action="mailto:102763240@students.swinburne.edu.my" method="post" enctype="text/plain" name="EmailForm" id="enquiryform" novalidate="novalidate">
+            <!--first name Input-->
+            <label class="labels" for="fname">First Name:*</label>
+            <input class="inputs" type="text" name="First Name" id="fname" maxlength="25" />
+            <br />
+            <!--last name Input-->
+            <label class="labels" for="lname">Last Name:*</label>
+            <input class="inputs" type="text" name="Last Name" id="lname" maxlength="25" />
+            <br />
+            <!--Email Input-->
+            <label class="labels" for="email">Email:*</label>
+            <input class="inputs" type="email" name="Email" id="email" placeholder="user@millenialaccessories.com" />
+            <br />
+            <!--Phone number Input-->
+            <label class="labels" for="number">Phone Number:*</label>
+            <input class="inputs" type="text" name="Phone Number" id="number" maxlength="10" placeholder="012 345 6789" />
+            <br />
+            <!--Address Fieldset start-->
+            <fieldset>
+              <legend class="address">Address</legend>
+              <!--Street Address Input-->
+              <label class="labels" for="street">Street Address:*</label>
+              <input class="inputs" type="text" name="Street Address" id="street" maxlength="40" />
+              <br />
+              <!--City Input-->
+              <label class="labels" for="city">City/Town:*</label>
+              <input class="inputs" type="text" name="City/Town" id="city" maxlength="20" />
+              <br />
+              <!--State Input-->
+              <label class="labels" for="state">State:*</label>
+              <select class="inputs" name="Statelist" id="state" onchange="change()">
+                <optgroup label="List of States">
+                  <script>
+                    statelist()
+
+                  </script>
+                </optgroup>
+              </select>
+              <br />
+              <!--Postcode Input-->
+              <label class="labels" for="postcode">Postcode:*</label>
+              <input class="inputs" type="text" name="Postcode" id="postcode" maxlength="5" minlength="5" />
+            </fieldset>
+            <!--Address Fieldset Ends-->
+            <br />
+            <!--Subject Input-->
+            <label class="labels" for="subject">Subject:*</label>
+            <input class="inputs" type="text" id="subject" name="Subject" />
+            <br />
+            <!--Product Input-->
+            <label class="labels" for="product">Product:*</label>
+            <select class="inputs" name="productlist" id="product" onchange="change()">
+              <optgroup label="Our Products">
+                <script>
+                  productlist1()
+
+                </script>
+              </optgroup>
+            </select>
+            <br />
+            <!--Comment textarea-->
+            <label class="labels" for="comment">Comment:</label>
+            <textarea class="inputs" name="Comment" id="comment" cols="30" rows="10"></textarea>
+            <br />
+            <br />
+            <!--Reset button-->
+            <button class="buttons" type="reset" value="Reset">Reset</button>
+            <br />
+            <br />
+            <!--Submit button-->
+            <button class="buttons" type="submit" value="Submit" onclick="return validate()">Submit</button>
+          </form>
+          <!--Enquiry Form Holder Ends-->
+        </div>
+        <!--Enquiry Form Holder Ends-->
+      </section>
+    </div>
+    <!--Enquiry Section End-->
+
+    <!--Footer start-->
+    <div class="footer">
+      <footer>
+        <div class="footerdiv">
+          <!--Footer First Row Start-->
+          <div class="firstcol">
+            <ul>
+              <li><a href="#">Help Center &amp; FAQ</a></li>
+              <li><a href="#">Shipping &amp; Delivery</a></li>
+              <li><a href="#">Track your order</a></li>
+              <li><a href="#">Returns &amp; Refunds</a></li>
+            </ul>
+          </div>
+          <!--Footer First Row End-->
+          <!--Footer Second Row Start-->
+          <div class="secondcol">
+            <ul>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Refund Policy</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <!--Footer second Row End-->
+          <!--Footer third Row Start-->
+          <div class="social">
+            <ul>
+              <li><a href="#"><img src="./images/twitter.svg" alt="twitterlogo" />Twitter</a></li>
+              <li><a href="#"><img src="./images/facebook.svg" alt="facebooklogo" />Facebook</a></li>
+              <li><a href="#"><img src="./images/instagram.svg" alt="instagramlogo" />Instagram</a></li>
+              <li><a href="#"><img src="./images/snapchat.svg" alt="snapchatlogo" />Snapchat</a></li>
+            </ul>
+          </div>
+          <!--Footer third Row end-->
+          <!--Footer Logo Start-->
+          <div class="footerlogo">
+            <img src="./images/translogo.png" alt="logo" width="575" />
+          </div>
+          <!--Footer Logo End-->
+          <!--Footer Copyright Start-->
+          <div id="liveclock" onload="showTime()"></div>
+          <br />
+          <div class="copydiv">
+            <p class="copyright">Millennial Accessories &#169; 2021</p>
+          </div>
+          <!--Footer Copyright End-->
+        </div>
+      </footer>
+    </div>
+    <!--Footer End-->
+  </body>
+
+</html>

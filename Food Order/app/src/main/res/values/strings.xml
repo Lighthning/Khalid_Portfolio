@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Assignment2Task02</string>
+    <string name="step_1_select_the_mains">Step 1:Select the mains</string>
+    <string name="scrambled_eggs">Scrambled Eggs</string>
+    <string name="pancake">Pancake</string>
+    <string name="sausages">Sausages</string>
+    <string name="beef_bacon">Beef Bacon</string>
+    <string name="ham">Ham</string>
+    <string name="step_2_select_your_sides">Step 2:Select your Sides</string>
+    <string name="baked_beans">Baked Beans</string>
+    <string name="tomatoes">Tomatoes</string>
+    <string name="hash_brown">Hash Brown</string>
+    <string name="saute_vegetables">Saute Vegetables</string>
+    <string name="toast">Toast</string>
+    <string name="salad">Salad</string>
+    <string name="step_3_select_your_beverage">Step 3:Select your beverage</string>
+    <string name="coffee">Coffee</string>
+    <string name="tea">Tea</string>
+    <string name="juice">Juice</string>
+    <string name="Juice">Juice</string>
+    <string name="milk">Milk</string>
+    <string name="your_order">Your Order:</string>
+    <string name="rm_0_00">Total: RM</string>
+    <string name="order">Order</string>
+    <string name="reset">Reset</string>
+    <string name="main">-Main:</string>
+    <string name="side">-Side:</string>
+    <string name="bevrages">-Bevrages:</string>
+    <string name="omellete">omellete</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="step_4_select_dining_method">Step 4: Select dining method</string>
+    <string name="dine_in">Dine in</string>
+    <string name="take_away">Take Away</string>
+    <string name="home_delivery">Home Delivery</string>
+    <string name="dining_method">-Dining Method:</string>
+    <string name="clear_form">Clear Form</string>
+</resources>
